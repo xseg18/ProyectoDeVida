@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: rockwell;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header{
+    width:100%;
+    overflow: hidden;
+    background: white;
+}
+
+body{
+    background-image: url(fondo.png);
+    background-attachment: fixed;  
+}
+
+
+header img{
+    width: 40%;
+    float:left;
+    margin-top: 10px;
+}
+
+header nav{
+    float: right;
+    line-height: 150px;
+}
+
+header nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    color: black;
+    -webkit-transition: all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition: all 500ms ease;
+}
+
+header nav a:hover{
+    background: #002b80;
+    border-radius: 20px;
+    color:white;
+}
+
+.header2{
+    position:fixed;
+    height: 100px;
+    -webkit-box-shadow: 2px 5px 21px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 5px 21px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px 5px 21px -1px rgba(0,0,0,0.75);
+}
+
+.header2 img{
+    width: 30%;
+}
+
+.header2 nav{
+    line-height: 100px;
+}
+
+@media screen and (max-width: 1000px){
+    header img,
+    header nav{
+        width:100%;
+        text-align: center;
+        line-height: 100px;
+    }
+    
+    .header2{
+        height:auto
+    }
+    
+    .header2 img,
+    .header2 nav{
+        line-height: 50px;
+        width: 100%;
+        
+    }
+}
+.fondo{
+    width: 100%;
+    padding-top: 99px;
+    padding-bottom: 40px;
+}
+.cuerpo{
+    width: 85%;
+    margin: auto;
+    background: white;
+}
+
+
+.titulos img{
+    width: 50%;
+    float: left;
+    margin-right: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.subtitulos{
+    margin-left: 60px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.parrafo{
+    margin:auto;
+    width: 87%; 
+    font-size: 19px;
+    padding-bottom: 25px;
+}
+
+.imagenes img{
+    background-image: url(fondo.png);
+    background-attachment: fixed;
+}
+
+.imagenes{
+    max-width: 755px;
+}
+
+.iconos img{
+    background-image: url(fondo.png);
+    background-attachment: fixed;
+    margin:10px 50px;
+}
+
+.blank{
+    color: white;   
+}
